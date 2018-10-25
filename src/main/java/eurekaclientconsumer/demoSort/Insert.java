@@ -1,4 +1,4 @@
-package eurekaclientconsumer.demo;
+package eurekaclientconsumer.demoSort;
 
 import java.util.Arrays;
 

@@ -1,4 +1,4 @@
-package eurekaclientconsumer.demo;
+package eurekaclientconsumer.demoSort;
 
 public class Num {
     public static int[] randomNumber(int min, int max, int n) {
@@ -25,6 +25,7 @@ public class Num {
                 count++;
             }
         }
+
         return result;
     }
     //生成一个待排序的随机数列
