@@ -13,5 +13,6 @@ public class MainTestAbstractFactory {
                 new AutobotFactoryProducer().getAutobotFactory("shape");
         //得到汽车人类型
         shapeAutobotFactory.getAutobotShape("Ironhide").getAutobot();
+        System.out.println(28 % 1000000007);
     }
 }

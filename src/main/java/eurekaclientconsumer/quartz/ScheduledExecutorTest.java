@@ -12,7 +12,7 @@ import java.util.concurrent.TimeUnit;
  */
 @Slf4j
 public class ScheduledExecutorTest implements Runnable {
-    private String jobName = "";
+    private String jobName ;
     public ScheduledExecutorTest(String jobName) {
         super();
         this.jobName = jobName;

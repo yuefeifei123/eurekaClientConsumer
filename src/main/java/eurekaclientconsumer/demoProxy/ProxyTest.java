@@ -7,7 +7,7 @@ public class ProxyTest {
         doTask.doEveryDay();
 
 
-//        DoTaskProxy doTaskProxy=new DoTaskProxy(new DoTaskImp());
-//        doTaskProxy.doEveryDay();
+        DoTaskProxy doTaskProxy=new DoTaskProxy(new DoTaskImp());
+        doTaskProxy.doEveryDay();
     }
 }

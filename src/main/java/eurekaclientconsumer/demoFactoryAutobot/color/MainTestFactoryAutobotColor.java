@@ -6,6 +6,7 @@ public class MainTestFactoryAutobotColor {
         for (AutobotColorEnum autobotColor : AutobotColorEnum.values()) {
             System.out.println(autobotColor.name());
         }
+
         AutobotColor autobotColor=new AutobotColorFactory().getAutobotColor("red");
         autobotColor.getColor();
         AutobotColor autobotColor2=new AutobotColorFactory().getAutobotColorEnum(AutobotColorEnum.AUTOBOT_COLOR_BLACK);
