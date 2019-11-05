@@ -5,6 +5,5 @@ public class ProxyTest {
     public static void main(String[] args){
         DoTask doTask=new DoTaskProxy(new DoTaskImp());
         doTask.doEveryDay();
-
     }
 }
